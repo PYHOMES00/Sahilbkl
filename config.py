@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "16575077"))
 API_HASH = os.environ.get("API_HASH", "1c8c0bcb55c14e0fd8078058966b6a11")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002238809870"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002213043042"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1702061654"))
@@ -28,16 +28,16 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1702061654"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://NewPomPom:NewPomPom@cluster0.dyu5iru.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://madarazbotz:O8WtNAEReh6ohJEt@cluster0.9mosuuk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "pomoibot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001506065058"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001757250028"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b> Hᴇʟʟᴏ {first}🙌\n\nI ᴀᴍ ᴀ Fɪʟᴇ [ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ/ᴀɴɪᴍᴇ] Pʀᴏᴠɪᴅᴇʀ ʙᴏᴛ \nSᴜʙꜱᴄʀɪʙᴇ ᴛᴏ ᴍʏ Cʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ Fɪʟᴇꜱ ☠️\n\nMᴏᴠɪᴇ/Sᴇʀɪᴇꜱ ~ <a href='https://t.me/+g2ccWFbI2XJkMTE9'>Jᴏɪɴ Hᴇʀᴇ🌹</a>\n\nPᴏᴡᴇʀᴇᴅ ʙʏ <a href='https://t.me/BinaryQuest'>Bɪɴᴀʀʏ Qᴜᴇꜱᴛ 🖤</a></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b> Hᴇʟʟᴏ {first}🙌\n\nI ᴀᴍ ᴀ Fɪʟᴇ [ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ/ᴀɴɪᴍᴇ] Pʀᴏᴠɪᴅᴇʀ ʙᴏᴛ \nSᴜʙꜱᴄʀɪʙᴇ ᴛᴏ ᴍʏ Cʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ Fɪʟᴇꜱ ☠️\n\nMᴏᴠɪᴇ/Sᴇʀɪᴇꜱ ~ <a href='https://t.me/+g2ccWFbI2XJkMTE9'>Jᴏɪɴ Hᴇʀᴇ</a>\n\nPᴏᴡᴇʀᴇᴅ ʙʏ <a href='https://t.me/BinaryQuest'>Bɪɴᴀʀʏ Qᴜᴇꜱᴛ 🖤</a></b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
