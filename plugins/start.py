@@ -96,7 +96,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("ᴏᴡɴᴇʀ", url='https://t.me/Pheonix_79')
                 ],
                 [
-                    InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ", url='https://t.me/Team_Legend_Official')
+                    InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ", url='https://t.me/+2l42WV6nQwY3OGQ9')
                 ],
                 [
                     InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/Pheonix_79')
