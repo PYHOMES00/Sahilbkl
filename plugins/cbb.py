@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ 🖤 ᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/BinaryQuest'>BɪɴᴀʀʏQᴜᴇꜱᴛ</a> \n○ ❤️‍🔥 ꜱᴜᴘᴘᴏʀᴛ : @BQChats \n○ 🔥Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ 🥶sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  : <a href='https://t.me/itz_sahil_official'>ᴘʀɪᴠᴀᴛᴇ ᴄᴏᴅᴇ</a>\n○ 🥵 ᴅᴏɴᴀᴛᴇ ᴍᴇ : <a href='https://t.me/itz_sahil_official/52'>ᴄʟɪᴄᴋ ᴍᴇ</a></b>",
+            text = f"<b>○ 🖤 ᴏᴡɴᴇʀ : <a href='https://t.me/Pheonix_79'>˹ ᴘ ʜ ᴇ ᴏ ɴ ɪ x ˼</a> \n○ 🖤 ᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/shubham_X_official'>♡ ꜱʜᴜʙʜᴀᴍ ♡</a> \n○ 🔥Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ 🥶sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  : <a href='https://t.me/itz_sahil_official'>ᴘʀɪᴠᴀᴛᴇ ᴄᴏᴅᴇ</a>\n○ 🥵 ᴅᴏɴᴀᴛᴇ ᴍᴇ : <a href='https://t.me/unreal_X_bot'>ᴄʟɪᴄᴋ ᴍᴇ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
