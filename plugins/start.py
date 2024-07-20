@@ -139,7 +139,12 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(
                 "ᴊᴏɪɴ ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ",
-                url = client.invitelink)
+                url = "https://t.me/+O46nRaKKMBs2NjU1")
+        ],
+        [
+            InlineKeyboardButton(
+                "ᴊᴏɪɴ ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ",
+                url = "https://telegram.me/share/url?url=https://t.me/Mr_itachi_PB_bot")
         ]
     ]
     try:
