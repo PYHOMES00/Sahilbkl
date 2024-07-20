@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002235661888"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b> Hᴇʟʟᴏ {first}🙌\n\nI ᴀᴍ ᴀ Fɪʟᴇ [ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ/ᴀɴɪᴍᴇ] Pʀᴏᴠɪᴅᴇʀ ʙᴏᴛ \nSᴜʙꜱᴄʀɪʙᴇ ᴛᴏ ᴍʏ Cʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ Fɪʟᴇꜱ ☠️\n\nMᴏᴠɪᴇ/Sᴇʀɪᴇꜱ ~ <a href='https://t.me/+g2ccWFbI2XJkMTE9'>Jᴏɪɴ Hᴇʀᴇ</a>\n\nPᴏᴡᴇʀᴇᴅ ʙʏ <a href='https://t.me/BinaryQuest'>Bɪɴᴀʀʏ Qᴜᴇꜱᴛ 🖤</a></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b> Hᴇʟʟᴏ {first}🙌\n\nI ᴀᴍ ᴀ Fɪʟᴇ Pʀᴏᴠɪᴅᴇʀ ʙᴏᴛ \nSᴜʙꜱᴄʀɪʙᴇ ᴛᴏ ᴍʏ Cʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ Fɪʟᴇꜱ ☠️\n\nPᴏᴡᴇʀᴇᴅ ʙʏ <a href='https://t.me/unreal_X_bot'>ᴜɴʀᴇᴀʟ ʙᴏᴛ 🖤</a></b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join : <a href='https://t.me/+g2ccWFbI2XJkMTE9'>Cʟɪᴄᴋ Mᴇ 🖤</a></b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b> due to overload only channel subscriber can use the bot! You need to join in my Channel/Group to use me\n\nKindly Please join my channel</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
