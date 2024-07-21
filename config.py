@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6547738956:AAG-mHG8lvqI5BPzsxZ0J_RvxvMm_tEKm4o")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6985784565:AAETKBIiT1ifvkDXyVOiYL9x4EU6om9F_nk")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "28243586"))
@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "28243586"))
 API_HASH = os.environ.get("API_HASH", "4022d5686b9b7a7cf8891205921a0ab3")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002057330647"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002000189850"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5340652544"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6668627674"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -32,21 +32,21 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://madarazbotz:BqCSRNckrgPCg
 DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002235661888"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002189170525"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b> Hᴇʟʟᴏ {first}🙌\n\nI ᴀᴍ ᴀ Fɪʟᴇ Pʀᴏᴠɪᴅᴇʀ ʙᴏᴛ \nSᴜʙꜱᴄʀɪʙᴇ ᴛᴏ ᴍʏ Cʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ Fɪʟᴇꜱ ☠️\n\nPᴏᴡᴇʀᴇᴅ ʙʏ <a href='https://t.me/unreal_X_bot'>ᴜɴʀᴇᴀʟ ʙᴏᴛ 🖤</a></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b> Hᴇʟʟᴏ {first}🙌\n\n𝗛𝗲𝘆 , {mention} ✨️/n𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 𝗧𝗲𝗮𝗺 𝗟𝗲𝗴𝗲𝗻𝗱 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 ❤️⚡️/n━━━━━━━━━━━ ☆ ━━━━━━━━━━━/n➥ 𝗣𝗿𝗼𝘃𝗶𝗱𝗲𝘀 𝗙𝗿𝗲𝗲 𝗦𝘁𝘂𝗱𝘆 𝗠𝗮𝘁𝗲𝗿𝗶𝗮𝗹𝘀 📚/n𝗙𝗼𝗿 𝗡𝗘𝗘𝗧 , 𝗝𝗘𝗘 , 𝗕𝗢𝗔𝗥𝗗𝗦 & 𝗖𝗨𝗘𝗧 🔥/n━━━━━━━━━━━ ☆ ━━━━━━━━━━━/n➥ 𝗜𝗙 𝗨 𝗟𝗶𝗸𝗲 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 , 𝗠𝘂𝘀𝘁 𝗦𝗵𝗮𝗿𝗲 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 👀❤️ #𝗧𝗘𝗔𝗠_𝗟𝗘𝗚𝗘𝗡𝗗_𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 ⚜️/n━━━━━━━━━━━ ☆ ━━━━━━━━━━━/n➥ 𝗠𝗮𝗱𝗲 𝗕𝘆 ➤ @Itz_Shixnu 🥤/n➥ 𝗠𝘂𝘀𝘁 𝗝𝗼𝗶𝗻 ➤ @TeamLegend_Backup ✨️/n━━━━━━━━━━━ ☆ ━━━━━━━━━━━/nPᴏᴡᴇʀᴇᴅ ʙʏ <a href='https://t.me/unreal_X_bot'>ᴜɴʀᴇᴀʟ ʙᴏᴛ 🖤</a></b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "").split()):
+    for x in (os.environ.get("ADMINS", "5340652544").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b> due to overload only channel subscriber can use the bot! You need to join in my Channel/Group to use me\n\nKindly Please join my channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>Hᴇʏ ! {mention} ❤️/n/nDᴜᴇ Tᴏ Oᴠᴇʀʟᴏᴀᴅ Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙꜱᴄʀɪʙᴇʀ Cᴀɴ Uꜱᴇ Tʜɪs Bᴏᴛ Yᴏᴜ Nᴇᴇᴅ Tᴏ Jᴏɪɴ Iɴ Mʏ Cʜᴀɴɴᴇʟ Tᴏ Uꜱᴇ Mᴇ 🌚⚡️/n/nKɪɴᴅʟʏ Pʟᴇᴀꜱᴇ Jᴏɪɴ Mʏ Cʜᴀɴɴᴇʟ ❤️👍🏻</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
