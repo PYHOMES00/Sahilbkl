@@ -96,9 +96,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("ᴏᴡɴᴇʀ", url='https://t.me/Pheonix_79')
                 ],
                 [
-                    InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ", url='https://t.me/+2l42WV6nQwY3OGQ9')
-                ],
-                [
+                    InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ", url='https://t.me/TeamLegend_Backup'),
                     InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/Pheonix_79')
                 ]
             ]
@@ -133,18 +131,18 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ",
+                "ᴛᴇᴀᴍ ʟᴇɢᴇɴᴅ ᴏꜰꜰɪᴄɪᴀʟ ⚡️",
+                url = "https://t.me/Team_Legend_Official")
+        ],
+        [
+            InlineKeyboardButton(
+                "ᴊᴏɪɴ ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 🔥",
                 url = client.invitelink)
         ],
         [
             InlineKeyboardButton(
-                "ᴊᴏɪɴ ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ",
-                url = "https://t.me/+O46nRaKKMBs2NjU1")
-        ],
-        [
-            InlineKeyboardButton(
-                "ꜱʜᴀʀᴇ ᴛʜɪꜱ ʙᴏᴛ",
-                url = "https://telegram.me/share/url?url=https://t.me/Mr_itachi_PB_bot")
+                "ꜱʜᴀʀᴇ ᴛʜɪꜱ ʙᴏᴛ 👨🏻‍💻",
+                url = "https://telegram.me/share/url?url=https://t.me/TeamLegendSaver_Bot")
         ]
     ]
     try:
