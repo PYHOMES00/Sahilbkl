@@ -16,7 +16,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("ꜱʜᴀʀᴇ ᴛʜɪꜱ ʙᴏᴛ", url='https://telegram.me/share/url?url=https://t.me/LegendFileSaver_Bot'),
-                        InlineKeyboardButton("ʙᴀᴄᴋ 🥀", callback_data = "start")
+                        InlineKeyboardButton("ʙᴀᴄᴋ 🥀", callback_data = "start"),
+                        InlineKeyboardButton("ᴄʟᴏꜱᴇ 🥀", callback_data = "close")
                     ]
                 ]
             )
@@ -34,7 +35,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about1":
         await query.message.edit_text(
-            text = f"<b>○ᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/shubham_X_official'>♡ ꜱʜᴜʙʜᴀᴍ ♡</a> \n○ 🔥Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ 🥶sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  : <a href='https://t.me/itz_sahil_official'>ᴘʀɪᴠᴀᴛᴇ ᴄᴏᴅᴇ</a>\n○ 🥵 ᴅᴏɴᴀᴛᴇ ᴍᴇ : <a href='https://t.me/unreal_X_bot'>ᴄʟɪᴄᴋ ᴍᴇ</a></b>",
+            text = f"<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟꜱ</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -44,7 +45,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     ],
                     [
                     InlineKeyboardButton("ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/+Ddg1Q95zBTcxMzhl'),
-                    InlineKeyboardButton("ᴜɴʀᴇᴀʟ ʙᴏᴛ", url='https://t.me/unreal_X_Bot')
+                    InlineKeyboardButton("ᴜɴʀᴇᴀʟ ʙᴏᴛ", url='https://t.me/unreal_X_Bot'),
+                    InlineKeyboardButton("ʙᴀᴄᴋ 🥀", callback_data = "start"),
+                    InlineKeyboardButton("ᴄʟᴏꜱᴇ 🥀", callback_data = "close")
                     ]
                 ]
             )
