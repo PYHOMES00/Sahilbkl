@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [   
                 [
-                    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ʟɪꜱᴛꜱ", callback_data = "about1")
+                    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ʟɪꜱᴛꜱ", callback_data = "about")
                 ],
                 [
                     InlineKeyboardButton("ᴏᴡɴᴇʀ", url='https://t.me/Itz_Shixnu'),
@@ -96,7 +96,7 @@ async def start_command(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/Team_Legend_Official'),
-                    InlineKeyboardButton("ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data = "about32"),
+                    InlineKeyboardButton("ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data = "about"),
                     InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ", url='https://t.me/TeamLegend_Backup'),
                     
                 ]
