@@ -15,6 +15,11 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/Team_Legend_Official'),
+                        InlineKeyboardButton("ᴜɴʀᴇᴀʟ ʙᴏᴛ", url='https://t.me/unreal_X_bot'),
+                        InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ", url='https://t.me/TeamLegend_Backup'),
+                    ],
+                    [
                         InlineKeyboardButton("ꜱʜᴀʀᴇ ᴛʜɪꜱ ʙᴏᴛ", url='https://telegram.me/share/url?url=https://t.me/LegendFileSaver_Bot'),
                         InlineKeyboardButton("ᴄʟᴏꜱᴇ 🥀", callback_data = "close")
                     ]
